@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: go-web-app:latest
+        image: <docker-user-name>/go-web-app
         ports:
         - containerPort: 8080
